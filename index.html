@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 2</title>
+    <link rel="stylesheet" href="vista.css">
+    
+</head>
+<body>
+    <h1>TAREA 2 - INGENIERIA WEB - MANUEL CALLE GARCES</h1>
+
+    <hr>
+    <div class="p1">
+        <h1>Ejercicio 1</h1>
+        <hr>
+        <p>Crear un programa javascript que permita verificar si una cadena de texto es un pangrama.
+            a. Pangrama: Cadena de texto que usa todas las letras del alfabeto
+            b. debe imprimir el resultado utilizado innerhtml
+            c. debe imprimir en Consola
+        </p>
+        
+            <input type="text" name="pangrama" id="pangrama" placeholder="Ingrese cadena de texto">
+        
+            <button onclick="obtener()">Verificar</button>
+            <div id="resultado">
+               
+            </div>
+        <hr>
+    </div>
+
+    <h1>Ejercicio 4</h1>
+    <hr>
+    <div class="p4">
+        <p>
+        Escriba un programa de JavaScript para determinar si un año dado es un año bisiesto en el
+        calendario gregoriano.
+            a. El año debe ingresarse mediante HTML
+            b. La respuesta debe mostrarse en el HTML de forma legible para el usuario
+
+        </p>
+        <img src="/img/p4.png" alt="">
+        <div class="containerp4">
+            <input type="number" name="año" id="año" placeholder="Ingrese año">
+        
+            <button onclick="obteneraño()">Verificar</button>
+             <div id="resultadoAño">
+       
+             </div>
+            <output name="resultadoAño"></output>
+
+        </div>
+        
+    </div>
+
+    <hr>
+    <div class="p5">
+        <h1>Ejercicio 5</h1>
+        <hr>
+        <p>
+            Se le proporciona una lista de enteros (X) no vacía. Para esta tarea, debe devolver una lista
+            que conste solo de los elementos no únicos en esta lista. Para hacerlo, deberá eliminar
+            todos los elementos únicos (elementos que están contenidos en una lista determinada solo
+            una vez). Al resolver esta tarea, no cambie el orden de la lista. Ejemplo: [1, 2, 3, 1, 3] 1 y 3
+            elementos no únicos y el resultado será [1, 3, 1, 3].
+        </p>
+        <div class="containerp5">
+            <input type="number" name="lista" id="caracteres" placeholder="Ingrese Lista de Numeros">
+        
+            <button onclick="obtenercaracteres()">Verificar</button>
+            <div>
+                <h1 id="resultadot"></h1>
+                <p id="resultadocaracter"></p>
+            </div>
+            <output name="resultadocaracter"></output>
+
+        </div>
+        <hr>
+    </div>
+
+    <h1>Ejercicio 6</h1>
+    <hr>
+    <div class="p6">
+        <p>
+            Los números romanos provienen del antiguo sistema de numeración romano. Se basan en
+            letras específicas del alfabeto que se combinan para significar la suma (o, en algunos casos,
+            la diferencia) de sus valores. Los diez primeros números romanos son:
+            
+            I, II, III, IV, V, VI, VII, VIII, IX y X.
+            
+            El sistema de números romanos se basa en decimales pero no es posicional directamente y
+            no incluye un cero. Los números romanos se basan en combinaciones de estos siete
+            símbolos:
+        </p>
+        <img src="/img/p6.png" alt="">
+        <div class="containerp6">
+            <input type="number" name="numeron" id="numero" placeholder="Ingrese numero">
+        
+            <button onclick="obtenerNumero()">Convertir</button>
+            <div>
+                <h1 id="resultadoR"></h1>
+                <p id="resultadoNumero"></p>
+            </div>
+            <output name="resultadoNumero"></output>
+
+        </div>
+
+
+    </div>
+    <hr>
+
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/pangrama.js"></script>
+<script src="./js/biciesto.js"></script>
+<script src="./js/lista.js"></script>
+<script src="./js/romanos.js"></script>
+</html>
